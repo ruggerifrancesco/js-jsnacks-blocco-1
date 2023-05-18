@@ -27,12 +27,12 @@ const birthdayList = [
 //Show List - [DEV ONLY TOUCH]
     console.log(birthdayList);
 
+// Variable for checking input value
+const nameBirthdayChecker = document.getElementById('nameBirthdayChecker');
 const nameCheckerBtn = document.getElementById('nameCheckerBtn');
 
-nameCheckerBtn.addEventListener( 
+nameCheckerBtn.addEventListener( 'click',
     function() {
-        // Variable for checking input value
-        const nameBirthdayChecker = document.getElementById('nameBirthdayChecker').value;
         let nameFound = false;
 
         for (let i = 0; i < 19; i++) {
