@@ -1,5 +1,6 @@
 console.log('JS Loaded Succesfully!');
 
+// List of Persons Allowed to the party
 const birthdayList = [
     'Bartolomeo Barillaro',
     'Romana Comolli',
@@ -15,10 +16,13 @@ const birthdayList = [
     'Claudia Sagredo-Pedroni',
     'Gianfrancesco Mengolo',
     'Telemaco Vivaldi',
-    'Sig.ra Gabriella Polizzi',
+    'Gabriella Polizzi',
     'Bianca Bocelli',
     'Adriana Ceci',
     'Patrizio Asprucci-Respighi',
     'Loredana Turchetta',
     'Raffaellino Marconi',
 ];
+
+//Show List - [DEV ONLY TOUCH]
+    console.log(birthdayList);
