@@ -13,4 +13,6 @@ if (userInput.length !== 4) {
       sum += parseInt(userInput[i]);
     }
   
+    // Show output of the sum
+    console.log(`La somma dei 4 numeri e di, ${sum}`);
   }
