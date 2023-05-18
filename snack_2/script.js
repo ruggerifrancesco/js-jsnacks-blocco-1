@@ -35,7 +35,7 @@ nameCheckerBtn.addEventListener( 'click',
     function() {
         let nameFound = false;
 
-        for (let i = 0; i < 19; i++) {
+        for (let i = 0; i < birthdayList.length; i++) {
             if (birthdayList[i] === nameBirthdayChecker.value) {
                 nameFound = true;
             }
