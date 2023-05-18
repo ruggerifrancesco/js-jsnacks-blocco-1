@@ -10,5 +10,9 @@ for (let i = 1; i <= 10; i++) {
     numbersInput.push(Number(numberInput));
 }
 
-console.log(numbersInput);
-console.log(`Il risulato della somma dei tuoi numeri e = ${sum}!`);
+if (numbersInput.length === 10) {
+    console.log(numbersInput);
+    console.log(`The result of the sum of your numbers is ${sum}!`);
+} else {
+    console.log('Error: Insufficient inputs');
+}
