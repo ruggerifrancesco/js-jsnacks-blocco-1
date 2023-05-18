@@ -1,7 +1,10 @@
 console.log('JS Loaded Succesfully!');
 
+let sum = 0;
+
 for (let i = 0; i < 9; i++) {
-    const nmbrInput = parseInt(prompt("Inserisci un numero a scelta!"));
+    const numberInput = parseInt(prompt("Inserisci un numero a scelta!"));
+    sum += Number(number); 
 }
 
-console.log(nmbrInput);
+console.log(sum);
