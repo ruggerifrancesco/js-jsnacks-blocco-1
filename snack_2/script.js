@@ -43,9 +43,11 @@ nameCheckerBtn.addEventListener( 'click',
 
         // Output Checker
         if (isNameFound) {
-            console.log(`Complimenti, sei tra gli invitati al compleanno del grande Gatsby!`);
+            console.log
+                (`Complimenti ${nameBirthdayChecker.value}, sei tra gli invitati al compleanno del grande Gatsby!`);
         } else {
-            console.log(`Mi dispiace, ma non sei tra gli invitati al compleanno del grande Gatsby!`);
+            console.log
+                (`Mi dispiace ${nameBirthdayChecker.value}, ma non sei tra gli invitati al compleanno del grande Gatsby!`);
         }
 
     }
