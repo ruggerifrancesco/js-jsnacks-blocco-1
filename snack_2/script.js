@@ -25,7 +25,7 @@ const birthdayList = [
 ];
 
 //Show List - [DEV ONLY TOUCH]
-    console.log(birthdayList);
+    // console.log(birthdayList);
 
 // Variable for checking input value
 const nameBirthdayChecker = document.getElementById('nameBirthdayChecker');
