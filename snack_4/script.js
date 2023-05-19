@@ -1,11 +1,11 @@
 console.log('JS Loaded Succesfully!');
 
 //Ask user a 4 digits number
-const userInput = parseInt(prompt("Inserisci un numero a 4 cifre"));
+const userInput = prompt("Inserisci un numero a 4 cifre");
 
 // Check if the input is exactly 4 digits
 if (userInput.length !== 4) {
-    console.log("Errore, input non valido. Serve perforza u numero a 4 cifre!");
+    console.log("Errore, input non valido. Serve perforza un numero a 4 cifre!");
   } else {
     // Calculate the sum of individual digits
     let sum = 0;
