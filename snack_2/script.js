@@ -33,16 +33,16 @@ const nameCheckerBtn = document.getElementById('nameCheckerBtn');
 
 nameCheckerBtn.addEventListener( 'click',
     function() {
-        let nameFound = false;
+        let isNameFound = false;
 
         for (let i = 0; i < birthdayList.length; i++) {
             if (birthdayList[i] === nameBirthdayChecker.value) {
-                nameFound = true;
+                isNameFound = true;
             }
         }
 
         // Output Checker
-        if (nameFound) {
+        if (isNameFound) {
             console.log(`Complimenti, sei tra gli invitati al compleanno del grande Gatsby!`);
         } else {
             console.log(`Mi dispiace, ma non sei tra gli invitati al compleanno del grande Gatsby!`);
